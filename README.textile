@@ -18,7 +18,7 @@ h2. Installing
 For now it can only be installed as a plugin:
 
 <pre>
-  ./script/plugin install git://github.com/intelitiva/context_tooltip.git
+  ./script/plugin install git://github.com/vicentemundim/context_tooltip.git
 </pre>
 
 h2. Usage
@@ -59,4 +59,4 @@ More info? Look at the code!
 
 h2. Credits
 
-Vicente Mundim (vicente.mundim@intelitiva.com)
+Vicente Mundim (vicente.mundim@gmail.com)
