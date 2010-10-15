@@ -1,3 +1,6 @@
+0.6.0
+- Compatibility with Rails 3
+
 0.5.1
 - Make all javascript files pass on JSLint (http://jslint.com). The only errors left were implicit global ones, which cannot be fixed anyway.
 
