@@ -48,7 +48,11 @@ module ContextTooltipHelper
     end
 
     def has_jquery?
-      ActionView::Helpers::AssetTagHelper::JAVASCRIPT_DEFAULT_SOURCES.include?('jquery')
+      begin
+        ActionView::Helpers::AssetTagHelper::JAVASCRIPT_DEFAULT_SOURCES.include?('jquery')
+      rescue
+        ActionView::Helpers::AssetTagHelper.javascript_expansions[:defaults].include?('jquery')
+      end
     end
 
     def default_options
